@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shopping Cart | Tanush Mobile Shop</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="logo">
+
+            <span>📱</span>
+
+            <div>
+                <h1>Tanush Mobile Shop</h1>
+                <p>Your Smartphone Partner</p>
+            </div>
+
+        </div>
+
+
+        <nav class="navbar">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="products.html">
+                Products
+            </a>
+
+            <a href="about.html">
+                About Us
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ================= CART HERO ================= -->
+
+    <section class="cart-hero">
+
+        <span>YOUR SHOPPING BAG</span>
+
+        <h2>
+            Shopping <strong>Cart</strong>
+        </h2>
+
+        <p>
+            Review your selected smartphones before checkout.
+        </p>
+
+    </section>
+
+
+
+    <!-- ================= CART ================= -->
+
+    <main class="cart-section">
+
+        <div class="cart-container">
+
+
+            <!-- PRODUCTS -->
+
+            <div class="cart-items">
+
+                <div class="cart-heading">
+
+                    <h2>
+                        Your Items
+                    </h2>
+
+                    <span id="itemCount">
+                        0 Items
+                    </span>
+
+                </div>
+
+
+                <div id="cartItems">
+
+                    <!-- JavaScript will add products here -->
+
+                </div>
+
+
+                <!-- EMPTY CART -->
+
+                <div id="emptyCart" class="empty-cart">
+
+                    <div>
+                        🛒
+                    </div>
+
+                    <h2>
+                        Your cart is empty
+                    </h2>
+
+                    <p>
+                        Looks like you haven't added
+                        any smartphones yet.
+                    </p>
+
+                    <a href="products.html">
+                        Browse Smartphones →
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ORDER SUMMARY -->
+
+            <aside class="cart-summary">
+
+                <h2>
+                    Order Summary
+                </h2>
+
+
+                <div class="summary-row">
+
+                    <span>
+                        Items
+                    </span>
+
+                    <strong id="summaryItems">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="summary-row">
+
+                    <span>
+                        Subtotal
+                    </span>
+
+                    <strong id="subtotal">
+                        ₹0
+                    </strong>
+
+                </div>
+
+
+                <div class="summary-row">
+
+                    <span>
+                        Delivery
+                    </span>
+
+                    <strong>
+                        FREE
+                    </strong>
+
+                </div>
+
+
+                <div class="summary-line"></div>
+
+
+                <div class="total-row">
+
+                    <span>
+                        Total
+                    </span>
+
+                    <strong id="total">
+                        ₹0
+                    </strong>
+
+                </div>
+
+
+                <button
+                    id="checkoutButton"
+                    class="checkout-btn"
+                >
+                    Proceed to Checkout →
+                </button>
+
+
+                <a
+                    href="products.html"
+                    class="continue-shopping"
+                >
+                    ← Continue Shopping
+                </a>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-container">
+
+
+            <div class="footer-brand">
+
+                <h2>
+                    📱 Tanush Mobile Shop
+                </h2>
+
+                <p>
+                    Your trusted smartphone partner.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>
+                    Quick Links
+                </h3>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="products.html">
+                    Products
+                </a>
+
+                <a href="about.html">
+                    About Us
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </div>
+
+
+            <div class="footer-contact">
+
+                <h3>
+                    Contact
+                </h3>
+
+                <p>
+                    📞 <a href="tel:+919000090000">+91 90000 90000</a>
+                </p>
+
+                <p>
+                    💬 <a href="https://wa.me/919000090000?text=Hi%20Tanush%20Mobile%20Shop%2C%20I%27d%20like%20to%20know%20more%20about%20your%20phones." target="_blank" rel="noopener">WhatsApp</a>
+                </p>
+
+                <p>
+                    📍 Hyderabad, Telangana
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            © 2026 Tanush Mobile Shop.
+            All Rights Reserved.
+
+        </div>
+
+    </footer>
+
+
+    <!-- WHATSAPP -->
+
+    <a href="https://wa.me/919000090000?text=Hi%20Tanush%20Mobile%20Shop%2C%20I%27d%20like%20to%20know%20more%20about%20your%20phones." class="whatsapp" target="_blank" rel="noopener">
+        💬
+    </a>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
